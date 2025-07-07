@@ -1,0 +1,333 @@
+{
+     "pages": [
+            {
+                "path": "pages/index/index",
+                "style": {
+                    "navigationBarBackgroundColor": "#2189ff",
+					"navigationBarTextStyle": "white",
+                    "navigationBarTitleText": "首页",
+                    "navigationStyle": "custom"
+                }
+            },
+            {
+                "path": "pages/order/index",
+                "style": {
+                    "navigationBarTitleText": "订单"
+                }
+            },
+            {
+                "path": "pages/user/index",
+                "style": {
+                    "navigationBarBackgroundColor": "#2189ff",
+					"navigationBarTextStyle": "white",
+                    "navigationBarTitleText": "我的",
+                    "navigationStyle": "custom"
+                }
+            },
+            {
+                "path": "pages/login/login",
+                "style": {
+                    "navigationBarTitleText": "登录"
+                }
+            },
+            {
+                "path": "pages/register/register",
+                "style": {
+                    "navigationBarTitleText": "注册"
+                }
+            },
+            {
+                "path": "pages/about_us/index",
+                "style": {
+                    "navigationBarTitleText": "关于我们"
+                }
+            },
+            {
+                "path": "pages/order_detail/index",
+                "style": {
+                    "navigationBarBackgroundColor": "#2189ff",
+					"navigationBarTextStyle": "white",
+                    "navigationBarTitleText": "订单详情"
+                },
+                "meta": { 
+					"auth": true
+				}
+            },
+            {
+                "path": "uni_modules/vk-uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+                "style": {
+                    "navigationBarTitleText": "头像裁剪",
+                    "navigationBarBackgroundColor": "#000000"
+                }
+            },
+            {
+                "path": "pages/user_set/index",
+                "style": {
+                    "navigationBarTitleText": "设置"
+                },
+                "meta": { 
+					"auth": true
+				}
+            },
+            {
+                "path": "pages/forget_pwd/forget_pwd",
+                "style": {
+                    "navigationBarTitleText": "忘记密码"
+                }
+            },
+            {
+                "path": "pages/agreement/agreement",
+                "style": {
+                    "navigationBarTitleText": "政策协议"
+                }
+            },
+            {
+                "path": "pages/webview/webview"
+            }
+        ],
+        "subPackages": [
+            {
+            "root": "bundle",
+            "pages": [{
+                "path": "pages/user_info/index",
+                "style": {
+                    "navigationBarTitleText": "个人资料"
+                },
+                "meta": { 
+					"auth": true
+				}
+            }, {
+                "path": "pages/contact_service/index",
+                "style": {
+                    "navigationBarTitleText": "联系客服"
+                }
+            }, {
+                "path": "pages/service_time/index",
+                "style": {
+                    "navigationBarTitleText": "服务时间"
+                },
+                "meta": { 
+					"auth": true
+				}
+            }, {
+                "path": "pages/evaluate/index",
+                "style": {
+                    "navigationBarTitleText": "评价"
+                },
+                "meta": { 
+					"auth": true
+				}
+            },
+            {
+				"path": "pages/withdraw_record/index",
+				"style": {
+				"navigationBarTitleText": "提现记录"
+				},
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+                "path": "pages/withdrawal_details/index",
+                "style": {
+                    "navigationBarTitleText": "提现详情"
+                },
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+				"path": "pages/deposit/index",
+				"style": {
+					"navigationBarTitleText": "保证金"
+				},
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+				"path": "pages/account_detail/index",
+				"style": {
+					"navigationBarTitleText": "账户流水"
+				},
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+				"path": "pages/withdraw/index",
+				"style": {
+					"navigationBarTitleText": "提现"
+				},
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+				"path": "pages/payment_result/payment_result",
+				"style": {
+					"navigationBarTitleText": "支付结果"          
+				}
+            },
+			{
+				"path": "pages/toAlipay/toAlipay",
+				"style": {
+					"navigationBarTitleText": "支付宝支付"
+				}
+			},
+			{
+				"path": "pages/income/index",
+				"style": {
+					"navigationBarTitleText": "收入"
+				},
+				"meta": { 
+					"auth": true
+				}
+			},
+			{
+				"path": "pages/apply/index",
+				"style": {
+                    "navigationBarBackgroundColor": "#2189ff",
+					"navigationBarTextStyle": "white",
+					"navigationBarTitleText": "申请入驻"
+				},
+				"meta": { 
+					"auth": true
+				}
+			},
+			{
+				"path": "pages/service_items/index",
+				"style": {
+					"navigationBarTitleText": "服务项目"
+				},
+				"meta": { 
+					"auth": true
+				}
+			},
+			{
+				"path": "pages/service_items_detail/index",
+				"style": {
+					"navigationBarTitleText": "项目详情"
+				},
+				"meta": { 
+					"auth": true
+				}
+			},
+			{
+				"path": "pages/balance/index",
+				"style": {
+                    "navigationBarBackgroundColor": "#2189ff",
+					"navigationBarTextStyle": "white",
+					"navigationBarTitleText": "佣金"
+				},
+				"meta": { 
+					"auth": true
+				}
+			},
+            {
+				"path": "pages/withdraw_bind/index",
+				"style": {
+					"navigationBarTitleText": "提现绑定"
+				},
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+				"path": "pages/withdraw_bind_account/index",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+				"path": "pages/deposit_pay/index",
+				"style": {
+					"navigationBarTitleText": "缴纳保证金"
+				},
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+				"path": "pages/authentication/index",
+				"style": {
+					"navigationBarTitleText": "实名信息"
+				},
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+                "path": "pages/location/index",
+                "style": {
+                    "navigationBarTitleText": "地址"
+                },
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+                "path": "pages/city/index",
+                "style": {
+                    "navigationBarTitleText": "城市"
+                },
+				"meta": { 
+					"auth": true
+				}
+            },
+            {
+                "path": "pages/change_pwd/index",
+                "style": {
+                    "navigationBarTitleText": "修改登录密码"
+                }
+            },
+            {
+                "path": "pages/user_profile/index",
+                "style": {
+                    "navigationBarTitleText": "个人设置"
+                },
+				"meta": { 
+					"auth": true
+				}
+            }
+        ]
+        }],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "商城",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#F8F8F8",
+        "h5": {
+            "navigationStyle": "custom"
+        }
+    },
+    "tabBar": {
+        "color": "#282828",
+        "selectedColor": "#2189ff",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "首页"
+          },
+          {
+            "pagePath": "pages/order/index",
+            "text": "订单"
+          },
+          {
+            "pagePath": "pages/user/index",
+            "text": "我的"
+          }
+        ]
+      },
+    "easycom": {
+        "custom": {
+            "router-navigate": "uniapp-router-next/components/router-navigate/router-navigate.vue",
+            "^(?!z-paging-refresh|z-paging-load-more)z-paging(.*)": "z-paging/components/z-paging$1/z-paging$1.vue",
+            "^w-(.*)": "@/components/widgets/$1/$1.vue"
+        }
+    }
+}
